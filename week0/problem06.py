@@ -9,6 +9,8 @@ plt.xlabel("number of folds")
 plt.ylabel("thickness[m]")
 plt.plot(folded_thickness_array)
 plt.show()
-# In this case, the more the calculation is executed, the bigger the value is.
-# Therefore, when draw a graph to dis play the value of folded thickness, those first times is really small compare to the fourty-three times.
-# As a result, we cannot have a good view of the changing value in some first times.
+"""
+In this case, the more the calculation is executed, the bigger the value is.
+Therefore, when draw a graph to dis play the value of folded thickness, those first times is really small compare to the fourty-three times.
+As a result, we cannot have a good view of the changing value in some first times.
+"""
